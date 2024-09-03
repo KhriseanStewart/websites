@@ -1,0 +1,178 @@
+body
+{
+    /*background-image: url(https://removal.ai/wp-content/uploads/2021/09/black-background-08-vecteezy.png);*/
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+ #interface
+{
+    text-align: center;
+    filter: blur(0.5px);
+    mix-blend-mode: hard-light;
+    background-color: rgb(156, 156, 156);  /* need to change later */
+    width: 1800px;
+    height: 60px;
+    align-content: center; 
+}
+
+
+#inter-home,#inter-ls,#inter-can,#inter-shirt,#inter-pc,#inter-cu
+{
+    border-radius: 20px;
+    height: 50px;
+    width: 125px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#inter-home:hover,#inter-ls:hover,#inter-can:hover,#inter-shirt:hover,#inter-pc:hover,#inter-cu:hover
+{
+    outline: solid 2px aqua;
+    border-color: aqua;
+}
+#Logo
+{
+    border-radius: 40px;
+    width: 70px;
+    position: relative;top: 25px;
+}
+#b-logo
+{
+    font-family: Kadwa;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 4px 1px rgba(48, 100, 138, 0.733);
+    letter-spacing: 10px;
+    position:relative;top: 0px;
+}
+#header-one,#para
+{
+    text-align: center; 
+    color: white;
+}
+#form
+{
+    position: relative; left: 420px;
+    text-align: center;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: solid 6px #ccc8c8;
+    border: none;
+    box-sizing: border-box;
+}
+#name,#Telephone,#email,#message
+{
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    width: 250px;
+    height: 20px;
+}
+#message
+{
+    width: 600px;
+    height: 200px;
+}
+#submit
+{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+#foot
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+@font-face {
+    font-family: MyFont;
+    src: url(Khand-Light.ttf);
+}
+@font-face {
+    font-family: Kadwa;
+    src: url(Kadwa-Regular.ttf);
+}
+@media (max-width: 1231px) {
+    #interface {
+        width: 1200px;
+    }
+    #inter
+    {
+        font-size: 12px;
+    }
+    #main-logo
+    {
+        font-size: 20px;
+    }
+    
+    #main-logo1{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    #mini-logo
+    {
+        font-size: 20px;
+    }
+    #form
+    {
+        position: relative; left: 100px;
+        width: 840px;
+    }
+    #name,#Telephone,#email,#message
+    {
+        width: 220px;
+        font-size: 10px;
+    }
+    #message
+    {
+        width: 740px;
+        height: 90px;
+    }
+}
+@media (max-width: 931px) {
+    #interface {
+        width: 900px;
+    }
+    #inter
+    {
+        font-size: 9px;
+    }
+    #main-logo
+    {
+        font-size: 15px;
+    }
+    
+    #main-logo1{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    #mini-logo
+    {
+        font-size: 20px;
+    }
+    #form
+    {
+        position: relative; left: 200px;
+        width: 440px;
+    }
+    #name,#Telephone,#email,#message
+    {
+        width: 120px;
+        font-size: 10px;
+    }
+    #message
+    {
+        width: 340px;
+        height: 90px;
+    }
+}

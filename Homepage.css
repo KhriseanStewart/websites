@@ -1,0 +1,201 @@
+body
+{
+    /*background-image: url(https://removal.ai/wp-content/uploads/2021/09/black-background-08-vecteezy.png);*/
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+ #interface
+{
+    text-align: center;
+    filter: blur(0.5px);
+    mix-blend-mode: hard-light;
+    background-color: rgb(156, 156, 156);  /* need to change later */
+    width: 1860px;
+    height: 60px;
+    align-content: center; 
+}
+#inter-home,#inter-ls,#inter-can,#inter-shirt,#inter-pc,#inter-cu
+{
+    border-radius: 20px;
+    height: 50px;
+    width: 125px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#inter-home:hover,#inter-ls:hover,#inter-can:hover,#inter-shirt:hover,#inter-pc:hover,#inter-cu:hover
+{
+    outline: solid 2px aqua;
+    border-color: aqua;
+}
+#Logo
+{
+    border-radius: 40px;
+    width: 70px;
+    position: relative;top: 25px;
+}
+#b-logo
+{
+    font-family: Kadwa;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 4px 1px rgba(48, 100, 138, 0.733);
+    letter-spacing: 10px;
+}
+@font-face {
+    font-family: MyFont;
+    src: url(Khand-Light.ttf);
+}
+@font-face {
+    font-family: Kadwa;
+    src: url(Kadwa-Regular.ttf);
+}
+#main-logo, #main-logo1
+{
+    font-family: 'MyFont';
+    text-shadow: 3px 4px 1px rgba(48, 100, 138, 0.733);
+    text-size-adjust: 140px;
+    color: white;
+    text-align: center;
+    position: relative;right: 0px;
+    position: relative;bottom: 10px;
+    letter-spacing: 15px;
+    font-weight: 400;
+
+}
+#main-logo1
+{
+    position: relative;right: 0px;
+    position: relative;bottom: 50px;
+    letter-spacing: 15px;
+}
+#mini-logo
+{
+    color: white;
+    text-align: center;             /* To adjust it later*/
+    position: relative;right: 0px;
+    position: relative;bottom: 50px;
+}
+#onscreen-1,#onscreen-2,#onscreen-3
+{
+    opacity: 1px;
+    background-color: grey;
+    border-radius: 20px;
+    outline: solid 6px #ccc8c8;
+    border: none;
+    cursor: pointer;
+}
+#onscreen-1:hover,#onscreen-2:hover,#onscreen-3:hover
+{
+    outline: solid 6px #61a5ff;
+    background-color: rgb(0, 175, 175);
+}
+#onscreen-3
+{
+    align-items: center;
+    width: 301px;
+}
+#ads
+{
+    max-width: 280px;
+}
+#photo_ads
+{
+    position: relative; bottom: 90px;
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+@media (max-width: 1231px) {
+    #interface {
+        width: 1200px;
+    }
+    #inter
+    {
+        font-size: 12px;
+    }
+    #main-logo
+    {
+        font-size: 20px;
+    }
+    
+    #main-logo1{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    #mini-logo
+    {
+        font-size: 20px;
+    }
+    #photo_ads,
+    #ads
+    {
+        width: 950px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        /*outline: solid 6px #ccc8c8;*/
+    }
+    #ads-3
+    {
+        width: 160px;
+    }
+    #onscreen-1,#onscreen-2,#onscreen-3
+    {
+        width: 250px;
+        height: 300px;
+    }
+
+}
+@media (max-width: 931px) {
+    #interface {
+        width: 900px;
+    }
+    #inter
+    {
+        font-size: 9px;
+    }
+    #main-logo
+    {
+        font-size: 15px;
+    }
+    
+    #main-logo1{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    #mini-logo
+    {
+        font-size: 20px;
+    }
+    #photo_ads,
+    #ads
+    {
+        width: 650px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        /*outline: solid 6px #ccc8c8;*/
+    }
+    #ads
+    {
+        width: 180px;
+    }
+    #ads-3
+    {
+        width: 120px;
+    }
+    #onscreen-1,#onscreen-2,#onscreen-3
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+}

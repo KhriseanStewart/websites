@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet">
+
+    <title>LIVESTREAM</title>
+    <link rel="stylesheet" type="text/css" href="Livestream.css">
+</head>
+<body>
+
+    <div id="interface">
+        <button id= "inter-home">Home</button>
+        <button id="inter-ls" class="redirect-Ls" >Live Streaming</button>
+        <button id="inter-can">Canva's</button>
+        <button id="inter-shirt">T-Shirts</button>
+        <button id="inter-pc">Phone Cases</button>
+        <button id="inter-cu">Contact Us</button>
+    </div>
+
+    <div id="body">
+        <h1 id="b-logo"> <img id="Logo" src="Sterling Logo1.jpg" alt="logo"> SCD</h1>
+
+    </div>
+<br>
+    <div id="Page-one">
+        <h1 id="header-one">SCD Live Streaming Services</h1>
+        <h3 id="para">“We Provide Quality Live Streaming Services  Such as YouTube, Zoom, Google Meet or any of your  preferred  streaming apps”</h3>
+    </div>
+<br>
+<br>
+    <form id="form" action ="submit-form" method="post">
+        <br>
+        <label id="Name" for="First Name">Name:</label> 
+        <input type="text" id="name" name="name" required>
+        <label id="Name" for="Last Name">Last Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label id="number" for="Telephone">Telephone #:</label>
+        <input type="number" name="Telephone" id="Telephone">
+
+        <label id="Email" for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label id="Message" for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="date">Date:</label>
+        <input id="date" type="date" required><br><br>
+
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+        <input id="submit" type="submit" value="Submit">
+        <br><br>
+    </form>
+<br>
+    <footer id="foot">Note: This Website is still under development</footer>
+   
+    <script>
+        //back to home
+        document.getElementById('inter-home').onclick = function() {
+            window.location.href = 'http://127.0.0.1:5500/Homepage.html'; // Change this to your desired URL
+        }
+        //livestream
+        document.getElementById('inter-ls').onclick = function() {
+            window.location.href = 'http://127.0.0.1:5500/Livestream.html'; // Change this to your desired URL
+        //to canva
+        }
+        document.getElementById('inter-can').onclick = function() {
+            window.location.href = 'http://127.0.0.1:5500/Livestream.html'; // Change this to your desired URL
+        }
+        //to shirt
+        document.getElementById('inter-shirt').onclick = function() {
+            window.location.href = 'http://127.0.0.1:5500/Livestream.html'; // Change this to your desired URL
+        }
+        //phone case
+        document.getElementById('inter-pc').onclick = function() {
+            window.location.href = 'http://127.0.0.1:5500/Livestream.html'; // Change this to your desired URL
+        }
+        //contact us
+        document.getElementById('inter-cu').onclick = function() {
+            window.location.href = 'http://127.0.0.1:5500/Livestream.html'; // Change this to your desired URL
+        }
+    </script>
+</body>
+</html>
