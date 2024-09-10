@@ -12,7 +12,7 @@ body
     filter: blur(0.5px);
     mix-blend-mode: hard-light;
     background-color: rgb(156, 156, 156);  /* need to change later */
-    width: 1860px;
+    width: fit-content;
     height: 60px;
     align-content: center; 
 }
@@ -113,31 +113,47 @@ body
     justify-content: space-between;
     text-align: center;
 }
-@media (max-width: 1231px) {
-    #interface {
-        width: 1200px;
-    }
-    #inter
+@media (min-width: 414px) and (max-width: 630px)
+{
+    #interface
     {
-        font-size: 12px;
+        min-width: 480px;
+        max-width: 620px;
+        height: 100px;
+    }
+    #inter-home,#inter-ls,#inter-can,#inter-shirt,#inter-pc, #inter-cu
+    {
+        font-size: 10px;
+    }
+    #b-logo
+    {
+        text-align: center;
+        position: relative; left: 90px;
     }
     #main-logo
     {
-        font-size: 20px;
+        position: relative; left: 90px;
     }
-    
-    #main-logo1{
+    #main-logo1
+    {
+        position: relative; left: 90px;
         font-size: 18px;
         margin-top: 40px;
     }
     #mini-logo
     {
+        position: relative; left: 90px;
         font-size: 20px;
+    }
+    #photo_ads
+    {
+        position: relative; left: 90px;
+        justify-content: space-between;
     }
     #photo_ads,
     #ads
     {
-        width: 950px;
+        width: 154px;
         display: flex;
         flex-direction: row;
         border-radius: 20px;
@@ -145,16 +161,16 @@ body
     }
     #ads-3
     {
-        width: 160px;
+        width: 154px;
     }
     #onscreen-1,#onscreen-2,#onscreen-3
     {
-        width: 250px;
-        height: 300px;
+        width: 400px;
+        height: 154px;
     }
 
 }
-@media (max-width: 931px) {
+@media (min-width: 631px) and (max-width: 949px){
     #interface {
         width: 900px;
     }
@@ -196,6 +212,48 @@ body
     {
         width: 200px;
         height: 200px;
+    }
+
+}
+@media (min-width: 950px) and (max-width: 1231px) {
+/*    #interface {
+        width: 1200px;
+    }
+*/
+    #inter
+    {
+        font-size: 12px;
+    }
+    #main-logo
+    {
+        font-size: 20px;
+    }
+    
+    #main-logo1{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    #mini-logo
+    {
+        font-size: 20px;
+    }
+    #photo_ads,
+    #ads
+    {
+        width: 950px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        /*outline: solid 6px #ccc8c8;*/
+    }
+    #ads-3
+    {
+        width: 160px;
+    }
+    #onscreen-1,#onscreen-2,#onscreen-3
+    {
+        width: 250px;
+        height: 300px;
     }
 
 }
