@@ -213,10 +213,9 @@ body
 
 }
 @media (min-width: 950px) and (max-width: 1231px) {
-/*    #interface {
+   #interface {
         width: 1200px;
     }
-*/
     #inter
     {
         font-size: 12px;
