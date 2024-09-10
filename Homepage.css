@@ -115,10 +115,10 @@ body
 }
 @media (min-width: 414px) and (max-width: 630px)
 {
+    
     #interface
     {
-        min-width: 480px;
-        max-width: 620px;
+        min-width: 400px;
         height: 100px;
     }
     #inter-home,#inter-ls,#inter-can,#inter-shirt,#inter-pc, #inter-cu
@@ -128,26 +128,23 @@ body
     #b-logo
     {
         text-align: center;
-        position: relative; left: 90px;
     }
     #main-logo
     {
-        position: relative; left: 90px;
+        /*position: relative; left: 90px;*/
     }
     #main-logo1
     {
-        position: relative; left: 90px;
         font-size: 18px;
         margin-top: 40px;
     }
     #mini-logo
     {
-        position: relative; left: 90px;
         font-size: 20px;
     }
     #photo_ads
     {
-        position: relative; left: 90px;
+        position: relative; left: 20px;
         justify-content: space-between;
     }
     #photo_ads,
