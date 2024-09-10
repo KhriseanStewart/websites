@@ -12,7 +12,7 @@ body
     filter: blur(0.5px);
     mix-blend-mode: hard-light;
     background-color: rgb(156, 156, 156);  /* need to change later */
-    width: fit-content;
+    width: 1200px;
     height: 60px;
     align-content: center; 
 }
